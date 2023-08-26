@@ -40,3 +40,20 @@ for (let i = 0; i < gusto.length; i++) {
 }
    
 
+// ESTRUCTURA WHILE 
+let i = 0;
+
+while (i < 10){      //mientras que i sea menor que 10, aumenta 1 
+ console.log(i+1);
+ i++; //aumenta 1 
+}
+
+
+// ESTRUCTURA DO WHILE 
+let y = 0;     //Se ejecuta al menos una vez la condicion 
+
+do {
+ y++;
+ console.log(y);
+} while (y < 10);
+
