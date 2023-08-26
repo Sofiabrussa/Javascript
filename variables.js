@@ -23,6 +23,9 @@ let prueba1= 5
 console.log("Mi hermano tiene " + String(prueba1) + " anios")
 console.log("Mi hermano tiene " + prueba1.toString() + " anios")
 
+ 
+
+
 
 
 
