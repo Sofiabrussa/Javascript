@@ -19,8 +19,6 @@ function Persona(nombre, profesion, fechaNacimiento) {
         return hoy.getFullYear() - this.fechaNacimiento.getFullYear();
         };
    }
-<<<<<<< HEAD
-=======
 
 //Para crear un objeto llamado persona mediante la función constructora:
 const nueva_persona = new Persona("Juan", "estudainte", 23)
@@ -29,4 +27,3 @@ const nueva_persona = new Persona("Juan", "estudainte", 23)
 
 
 
->>>>>>> objetos
