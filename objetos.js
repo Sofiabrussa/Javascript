@@ -26,10 +26,12 @@ const juan = new Persona("Juan", "estudainte", 23)
 const sofi = new Persona("sofi", "estudainte", 22)
 const facu = new Persona("facu", "estudainte", 17)
 
+
+//El prototipo (prototype) es un concepto clave que se utiliza para lograr la herencia y compartir propiedades y métodos entre objetos
 //Podemos modificar todos los objetos
 Persona.prototype.inicio = function() {
     console.log("Bienvenido a este mundo")
-}
+};
 
 sofi.inicio();
 juan.inicio();
@@ -38,9 +40,10 @@ juan.inicio();
 //Podemos modificar solo un objeto
 juan.iniciar = function()  {
     console.log("Bienvenido a este mundo")
-}
+};
 
-juan.iniciar()
+juan.iniciar();
+
 
 
 
