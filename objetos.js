@@ -20,8 +20,27 @@ function Persona(nombre, profesion, fechaNacimiento) {
         };
    }
 
+
 //Para crear un objeto llamado persona mediante la función constructora:
-const nueva_persona = new Persona("Juan", "estudainte", 23)
+const juan = new Persona("Juan", "estudainte", 23)
+const sofi = new Persona("sofi", "estudainte", 22)
+const facu = new Persona("facu", "estudainte", 17)
+
+//Podemos modificar todos los objetos
+Persona.prototype.inicio = function() {
+    console.log("Bienvenido a este mundo")
+}
+
+sofi.inicio();
+juan.inicio();
+
+
+//Podemos modificar solo un objeto
+juan.iniciar = function()  {
+    console.log("Bienvenido a este mundo")
+}
+
+juan.iniciar()
 
 
 
