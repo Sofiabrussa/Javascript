@@ -1,4 +1,5 @@
 
+
 // OBJETOS
 //Un objeto de JavaScript tiene propiedades asociadas a él. Las propiedades de un objeto definen sus características
 
