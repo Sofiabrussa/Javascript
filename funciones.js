@@ -28,7 +28,9 @@ obtenerPersonaMasGrandeArrow = (p1, p2, p3) => {
 
 
 
-//CLOUSURES 
+//CLOSURES 
+//Un closure es cuando una funcion devuelve otra funcion y le pasa todo su scope (alcance y valores) a la funcion que devuelve
+//Esto permite crear funciones que pueden recordar y acceder a variables que están fuera de su alcance normal.
 
 const multiplicarpor = (numero) => {
     let x = numero;  //definimos una variable
@@ -41,4 +43,6 @@ const multiplicarpor = (numero) => {
 console.log(multiplicarpor(5));  //Devuelve la funcion como retorno 
 
 const unaVar = multiplicarpor(5) //Guardamos la funcion como retorno en una variable
-console.log(unaVar(4)); //Accedemos a la funcion 
+console.log(unaVar(4)); //Accedemos a la funcion que era retorno 
+
+
