@@ -2,7 +2,7 @@
   "name": "modulos.js",
   "version": "1.0.0",
   "description": "Mis primeros pasos entendiendo javascript. Espero que le sirva como guia a alguien <3",
-  "main": "arrays.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
