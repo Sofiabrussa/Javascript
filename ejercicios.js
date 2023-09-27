@@ -14,3 +14,31 @@
 //     }
 // }
 
+//PROBANDO CONSULTAR APIS
+const render = document.getElementById("render") 
+
+const peticion = async () =>  {
+    try {
+        const rta = await fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+        const data = await rta.json()
+        console.log(data);
+        return data
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+const renderDatos = async () => {
+    const datos = await peticion()
+    //render.innerHTML = datos.name
+
+    render.innerHTML =  ` 
+        <h1> ${datos.name} </h1>
+        <h2> ${datos.id} </h2>
+        <img src="${datos.sprites.front_default}">
+    `
+}
+
+
+renderDatos()
+

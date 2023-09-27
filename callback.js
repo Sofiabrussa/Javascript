@@ -16,7 +16,13 @@ function imprimir(callback){    //La función imprimir toma un argumento llamado
 imprimir(function() {
     console.log('Texto impreso!'); //la función anónima es la que se ejecutará como callback después de que imprimir haya terminado su trabajo.
    });
+   
+   
 
+   // Esta función ejecuta el callback despúes de esperar cierto tiempo el cual también le pasamos como parámetro.
 setTimeout(function(){
     console.log('Hola')
-   }, 2000);
+   }, 2000);  //Callback se ejecuta dps de 2000 milisegs
+
+
+   
