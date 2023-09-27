@@ -7,14 +7,13 @@ const array = ["Hola", 0, 23, true, "chau"]
 console.log(array.indexOf("chau")) 
 
 
-//forEach : Recorre cada elemento del array 
-const prueba = [0 ,5, 10, 15, 20, 65, 80, 65]
+const prueba = [0 ,5, 10, 15, 20, 65, 80, 65] //array de prueba 
 
+//forEach : Recorre cada elemento del array 
 prueba.forEach(i => console.log(i+2))
 
 //filter: Filta los elementos, devuelve un array nuevo, no modifica el original 
-
-const mayores = prueba.filter( i => i>10)
+const mayores = prueba.filter(i => i>10)
 console.log (mayores)
 
 

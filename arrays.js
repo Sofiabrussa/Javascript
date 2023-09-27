@@ -2,8 +2,6 @@
 //Arrays
 //Un arreglo es un conjunto de datos ordenados por posiciones
 
-const { log } = require("console");
-
 const array = ['hola', 3.14, true];  
 const array1 = new Array(3); //crea un array vacio con tres pos
 
