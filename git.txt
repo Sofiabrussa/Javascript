@@ -1,0 +1,33 @@
+
+//Esto es una guia para entender git//
+Permite almacenar todos los cambios realizados sobre un conjunto de archivos manteniendo su historial y permitiendo ver (o restaurar) las versiones previas
+de estos archivos.
+
+El desarrollador clonará el repositorio y trabajará sobre esta copia local agregando, modificando y eliminando archivos. Es de importancia aclarar una vez más que estas
+modificaciones el programador las estará realizando sobre su copia local.
+
+Al instalar Git, se instala también una aplicación llamada git bash, que no es nada mas que un emulador de terminal unix, que tiene la capacidad de ejecutar comandos de una terminal unix y los comandos
+de Git.
+
+
+Configuraciones globales !!! IMPORTANTE TENER CONFIGURADO ESTO!!!!!
+Luego de haber instalado algún cliente de GIT en nuestro equipo, debemos realizar mínimamente las siguientes dos configuraciones:
+    git config --global user.name "TU NOMBRE"
+    git config --global user.email "TU DIRECCION DE EMAIL"
+
+
+REPOSITORIO: Un repositorio es un espacio, en la nube, que tenemos asignado para poder alojar todos los archivos de nuestro proyecto. 
+Un repositorio es el lugar donde van a estar todos los commits que forman parte del historial del proyecto.
+
+Lo primero que hacemos es clonar un repositorio. Consiste en copiar todo el historial de cambios y archivos de la copia de trabajo desde
+un repositorio remoto. Para eso se utiliza el comnado:
+            git clone {URL} {destino}
+Donde URL es la url del repositorio y donde destino es el nombre de la carpeta que se va a crear con el contenido del repositorio
+ - Nos movemos a la carpeta donde deseamos clonar el proyecto, clonamos el repositorio con el comando que vimos antes y por defecto se encuentra en la rama manteniendo
+
+
+Trayendo cambios del repositorio remoto al repositorio local
+Para traerse los cambios del repositorio remoto al repositorio local es necesario moverse a la carpeta del proyecto y luego ejecutar el comando git pull
+
+
+
